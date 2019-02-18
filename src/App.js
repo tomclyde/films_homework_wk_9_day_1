@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+import FilmBox from "./containers/FilmBox";
 
 class App extends Component {
   render() {
     return (
-      <h1>Hello</h1>
+      <FilmBox />
     );
   }
 }
